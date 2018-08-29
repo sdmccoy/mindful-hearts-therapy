@@ -1,0 +1,17 @@
+section {
+  border: 1px solid black;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-bar > a {
+  padding: 15px 0 0 0;
+}
+
+a:hover {
+  background-color: aqua;
+}
